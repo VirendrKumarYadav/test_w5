@@ -3,18 +3,21 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+   
 }
 
 :root {
     /* --white_color:#F7E2BF; */
     --white_color: white;
-    --navi_black: #222F3D;
+    --navi_black: #324152;
     --dark_white: #F3F3F3;
     --soft_orange: #FEBD68;
-    --footer_color: #121d2b;
+    --footer_color: #232F3E;
     --desc_color:#d3d0d0;
 }
-
+body{
+    overflow-x: hidden;
+}
 .head p:hover {
     color: rgba(255, 255, 255, 0.705);
 
@@ -221,7 +224,7 @@
 .discription {
     display: flex;
     justify-content: space-around;
-    height: 216px;
+    height: 250px;
     background-color: var(--footer_color);
 }
 
